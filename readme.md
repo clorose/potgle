@@ -1,9 +1,9 @@
 # Portgle
-
 I'm just too lazy to type ports.
 
 ## Usage
-Edit `ports.js`:
+1. Fork this repository
+2. Edit `ports.js` to add your commonly used ports:
 ```javascript
 const PORTS = {
     React: "3000",
@@ -14,7 +14,7 @@ const PORTS = {
     // Add your ports:
     // ServiceName: "port"
     // or
-    // "Service Name": "port"    // 띄어쓰기 있으면 따옴표 필수
+    // "Service Name": "port"    // Quotes required if name contains spaces
 };
 ```
 
